@@ -1,1 +1,0 @@
-export { default } from "file:///D:/Quadra/test%20role/test%20role/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

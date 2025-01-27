@@ -1,0 +1,33 @@
+ %container-style {
+    width: 90%;
+    margin: auto;
+  }
+
+  @mixin breakpoints($point) {
+    @if $point ==mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $point ==verySmall {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+    @else if $point ==small {
+        @media (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $point ==medium {
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+    @else if $point ==large {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+}
+  
