@@ -249,6 +249,7 @@ header .links-page a {
   bottom: 10px;
   left: 10px;
   z-index: 9999999;
+  cursor: pointer;
 }
 .fixed-arrow img {
   width: 32px;
@@ -261,6 +262,7 @@ header .links-page a {
   display: flex;
   gap: 10px;
   z-index: 999999;
+  cursor: pointer;
 }
 .right-fixed .message-icon {
   background-color: #a886cd;
@@ -377,6 +379,11 @@ footer .copyright .copyright-text .color-Company {
   background-color: currentColor;
 }
 
+@media (max-width: 768px) {
+  .text-aboutus {
+    margin-top: 4rem;
+  }
+}
 .background-dark {
   background-color: #003b49;
   color: white;

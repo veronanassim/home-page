@@ -20,7 +20,6 @@ ul {
 .explore-sec {
     .arrow-left {
         img {
-
             transform: scaleX(-1);
         }
     }
@@ -28,7 +27,6 @@ ul {
 
 #service {
     .slider-track {
-
         direction: ltr;
     }
 }
@@ -82,4 +80,31 @@ footer {
             padding-right: 2px;
         }
     }
+}
+
+.after-text::before {
+    left: unset;
+    right: -12px;
+}
+
+
+body{
+    .after-text {
+        margin-bottom: 5rem;
+        }
+}
+
+
+.team-img{
+    .after-text::before {
+        left: unset;
+        top: -28rem;
+        right: 630px;
+    }
+      
+      .small-honty::before {
+        left: unset;
+        bottom: 370px;
+        right: 630px;
+      }
 }

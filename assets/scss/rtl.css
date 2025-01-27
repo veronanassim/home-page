@@ -50,4 +50,24 @@ footer .num span {
 .form-contact .form-label img {
   padding-left: 0px;
   padding-right: 2px;
+}
+
+.after-text::before {
+  left: unset;
+  right: -12px;
+}
+
+body .after-text {
+  margin-bottom: 5rem;
+}
+
+.team-img .after-text::before {
+  left: unset;
+  top: -28rem;
+  right: 630px;
+}
+.team-img .small-honty::before {
+  left: unset;
+  bottom: 370px;
+  right: 630px;
 }/*# sourceMappingURL=rtl.css.map */

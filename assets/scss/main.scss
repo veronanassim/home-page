@@ -251,6 +251,7 @@ header{
     bottom: 10px;
     left: 10px;
     z-index: 9999999;
+    cursor: pointer;
     img{
         width: 32px;
     }
@@ -262,6 +263,7 @@ header{
     display: flex;
     gap: 10px;
     z-index: 999999;
+    cursor: pointer;
     .message-icon{
         background-color: #a886cd;
         width: 4rem;
@@ -378,9 +380,19 @@ footer{
         transform: skewY(45deg);
         background-color: currentColor;
     }
+    // .rtl .after-text::before {
+    //     left: auto;
+    //     right: -10px;
+    //     transform: skewY(-45deg);
+    // }
 }
 
 // style about us page ///////
+@media (max-width: 768px) {
+    .text-aboutus{
+        margin-top: 4rem;
+    }
+}
 .background-dark{
     background-color: #003b49;
     color: white;
